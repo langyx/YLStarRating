@@ -10,10 +10,10 @@ import Foundation
 import SwiftUI
 
 public struct YLStarRatingSetting {
-    var numberOfStars: Int = 5
-    var rating: Double = 0
+    public var numberOfStars: Int = 5
+    public var rating: Double = 0
     
-    var font: Font = .body
-    var color: Color = .black
-    var spacing: CGFloat = 5
+    public var font: Font = .body
+    public var color: Color = .black
+    public var spacing: CGFloat = 5
 }

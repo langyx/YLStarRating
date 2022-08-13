@@ -1,7 +1,7 @@
 import SwiftUI
 
 public struct YLStarRating: View {
-    var setting = YLStarRatingSetting()
+    public var setting = YLStarRatingSetting()
     
     public var body: some View {
         HStack(spacing: setting.spacing){
