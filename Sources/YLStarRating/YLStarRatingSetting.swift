@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-struct YLStarRatingSetting {
+public struct YLStarRatingSetting {
     var numberOfStars: Int = 5
     var rating: Double = 0
     
