@@ -10,10 +10,19 @@ import Foundation
 import SwiftUI
 
 public struct YLStarRatingSetting {
-    public var numberOfStars: Int = 5
-    public var rating: Double = 0
     
-    public var font: Font = .body
-    public var color: Color = .black
-    public var spacing: CGFloat = 5
+    public init(numberOfStars: Int = 5, rating: Double = 0, font: Font = .body, color: Color = .black, spacing: CGFloat = 5) {
+        self.numberOfStars = numberOfStars
+        self.rating = rating
+        self.font = font
+        self.color = color
+        self.spacing = spacing
+    }
+    
+    var numberOfStars: Int = 5
+    var rating: Double = 0
+    
+    var font: Font = .body
+    var color: Color = .black
+    var spacing: CGFloat = 5
 }
